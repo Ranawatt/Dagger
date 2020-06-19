@@ -1,4 +1,6 @@
 package com.example.dagger_hilt
 
-class App {
+import android.app.Application
+
+class App : Application() {
 }
