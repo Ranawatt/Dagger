@@ -1,5 +1,7 @@
 package com.example.dagger.di.components;
 
+import android.app.Activity;
+
 import com.example.dagger.di.modules.ActivityModule;
 import com.example.dagger.di.scope.ActivityScope;
 import com.example.dagger.ui.MainActivity;
@@ -12,6 +14,6 @@ import dagger.Component;
 @Component(dependencies = {ApplicationComponent.class},modules = {ActivityModule.class})
 public interface ActivityComponent {
 
-    void inject(MainActivity mainActivity);
+    void inject(MainActivity activity);
 
 }

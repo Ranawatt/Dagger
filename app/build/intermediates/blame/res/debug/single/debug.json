@@ -1472,6 +1472,10 @@
         "source": "C:\\Users\\sugandh\\.gradle\\caches\\transforms-2\\files-2.1\\3b143d82d3100ec452d559a31b730c96\\res\\drawable-v23\\abc_control_background_material.xml"
     },
     {
+        "merged": "D:\\androidprojects\\Dagger\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_home.xml.flat",
+        "source": "D:\\androidprojects\\Dagger\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
         "merged": "D:\\androidprojects\\Dagger\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_btn_radio_material.xml.flat",
         "source": "C:\\Users\\sugandh\\.gradle\\caches\\transforms-2\\files-2.1\\3b143d82d3100ec452d559a31b730c96\\res\\drawable\\abc_btn_radio_material.xml"
     },

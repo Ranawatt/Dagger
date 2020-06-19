@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Dagger</string>
+    <string name="hello_msg_from_activity">Hello From Activity!</string>
+    <string name="hello_msg_from_fragment">Hello From Fragment!</string>
 </resources>

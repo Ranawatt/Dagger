@@ -1,13 +1,12 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\androidprojects\Dagger\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from D:\androidprojects\Dagger\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from D:\androidprojects\Dagger\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from D:\androidprojects\Dagger\app\src\main\AndroidManifest.xml:2:1-21:12
-MERGED from [com.google.dagger:dagger-android-support:2.20] C:\Users\sugandh\.gradle\caches\transforms-2\files-2.1\79318ccb2f14a09c3c40fc83b7333b85\AndroidManifest.xml:17:1-22:12
+ADDED from D:\androidprojects\Dagger\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from D:\androidprojects\Dagger\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from D:\androidprojects\Dagger\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from D:\androidprojects\Dagger\app\src\main\AndroidManifest.xml:2:1-23:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\sugandh\.gradle\caches\transforms-2\files-2.1\3b143d82d3100ec452d559a31b730c96\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\sugandh\.gradle\caches\transforms-2\files-2.1\98f436aea6c26addd6f874a5b4b55d2e\AndroidManifest.xml:2:1-11:12
-MERGED from [com.google.dagger:dagger-android:2.20] C:\Users\sugandh\.gradle\caches\transforms-2\files-2.1\6f710a809fbb586ce066be9a4862d26b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.dagger:dagger-android:2.21] C:\Users\sugandh\.gradle\caches\transforms-2\files-2.1\3be350b3322e029d49966e04b2f08eba\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\sugandh\.gradle\caches\transforms-2\files-2.1\98d98d40e4f30c323db3f22f67b01193\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\sugandh\.gradle\caches\transforms-2\files-2.1\dbbc50936a5a1ee12afe41a625f17f25\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\sugandh\.gradle\caches\transforms-2\files-2.1\998d13991ed7058f3075c69c8db6f8d5\AndroidManifest.xml:17:1-22:12
@@ -27,25 +26,25 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\sugandh\.gradle\
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\sugandh\.gradle\caches\transforms-2\files-2.1\767b587477542b5667d5541a7f2bb560\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\sugandh\.gradle\caches\transforms-2\files-2.1\ca6d9c792b87e89d67bdfafa18ee7eac\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\sugandh\.gradle\caches\transforms-2\files-2.1\cfb23dcac603041293e02330e7c6ec87\AndroidManifest.xml:17:1-22:12
-INJECTED from D:\androidprojects\Dagger\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from D:\androidprojects\Dagger\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from D:\androidprojects\Dagger\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from D:\androidprojects\Dagger\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from D:\androidprojects\Dagger\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from D:\androidprojects\Dagger\app\src\main\AndroidManifest.xml:2:1-23:12
 	package
 		ADDED from D:\androidprojects\Dagger\app\src\main\AndroidManifest.xml:3:5-33
 		INJECTED from D:\androidprojects\Dagger\app\src\main\AndroidManifest.xml
 		INJECTED from D:\androidprojects\Dagger\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\androidprojects\Dagger\app\src\main\AndroidManifest.xml
-		ADDED from D:\androidprojects\Dagger\app\src\main\AndroidManifest.xml:2:1-21:12
+		ADDED from D:\androidprojects\Dagger\app\src\main\AndroidManifest.xml:2:1-23:12
 		INJECTED from D:\androidprojects\Dagger\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\androidprojects\Dagger\app\src\main\AndroidManifest.xml
-		ADDED from D:\androidprojects\Dagger\app\src\main\AndroidManifest.xml:2:1-21:12
+		ADDED from D:\androidprojects\Dagger\app\src\main\AndroidManifest.xml:2:1-23:12
 		INJECTED from D:\androidprojects\Dagger\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\androidprojects\Dagger\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from D:\androidprojects\Dagger\app\src\main\AndroidManifest.xml:5:5-19:19
+ADDED from D:\androidprojects\Dagger\app\src\main\AndroidManifest.xml:5:5-21:19
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\sugandh\.gradle\caches\transforms-2\files-2.1\98f436aea6c26addd6f874a5b4b55d2e\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\sugandh\.gradle\caches\transforms-2\files-2.1\98f436aea6c26addd6f874a5b4b55d2e\AndroidManifest.xml:9:5-20
 MERGED from [androidx.core:core:1.1.0] C:\Users\sugandh\.gradle\caches\transforms-2\files-2.1\7691313d2100015b6de47fcb7abd101a\AndroidManifest.xml:24:5-89
@@ -55,43 +54,43 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\su
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.1.0] C:\Users\sugandh\.gradle\caches\transforms-2\files-2.1\7691313d2100015b6de47fcb7abd101a\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from D:\androidprojects\Dagger\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from D:\androidprojects\Dagger\app\src\main\AndroidManifest.xml:11:9-35
 	android:label
 		ADDED from D:\androidprojects\Dagger\app\src\main\AndroidManifest.xml:8:9-41
 	android:roundIcon
-		ADDED from D:\androidprojects\Dagger\app\src\main\AndroidManifest.xml:9:9-54
+		ADDED from D:\androidprojects\Dagger\app\src\main\AndroidManifest.xml:10:9-54
 	android:icon
 		ADDED from D:\androidprojects\Dagger\app\src\main\AndroidManifest.xml:7:9-43
 	android:allowBackup
 		ADDED from D:\androidprojects\Dagger\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from D:\androidprojects\Dagger\app\src\main\AndroidManifest.xml:11:9-40
+		ADDED from D:\androidprojects\Dagger\app\src\main\AndroidManifest.xml:12:9-40
+	android:name
+		ADDED from D:\androidprojects\Dagger\app\src\main\AndroidManifest.xml:9:9-38
 activity#com.example.dagger.ui.MainActivity
-ADDED from D:\androidprojects\Dagger\app\src\main\AndroidManifest.xml:12:9-18:20
+ADDED from D:\androidprojects\Dagger\app\src\main\AndroidManifest.xml:13:9-20:20
 	android:name
-		ADDED from D:\androidprojects\Dagger\app\src\main\AndroidManifest.xml:12:19-50
+		ADDED from D:\androidprojects\Dagger\app\src\main\AndroidManifest.xml:13:19-50
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\androidprojects\Dagger\app\src\main\AndroidManifest.xml:13:13-17:29
+ADDED from D:\androidprojects\Dagger\app\src\main\AndroidManifest.xml:14:13-19:29
 action#android.intent.action.MAIN
-ADDED from D:\androidprojects\Dagger\app\src\main\AndroidManifest.xml:14:17-69
+ADDED from D:\androidprojects\Dagger\app\src\main\AndroidManifest.xml:16:17-69
 	android:name
-		ADDED from D:\androidprojects\Dagger\app\src\main\AndroidManifest.xml:14:25-66
+		ADDED from D:\androidprojects\Dagger\app\src\main\AndroidManifest.xml:16:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\androidprojects\Dagger\app\src\main\AndroidManifest.xml:16:17-77
+ADDED from D:\androidprojects\Dagger\app\src\main\AndroidManifest.xml:17:17-77
 	android:name
-		ADDED from D:\androidprojects\Dagger\app\src\main\AndroidManifest.xml:16:27-74
+		ADDED from D:\androidprojects\Dagger\app\src\main\AndroidManifest.xml:17:27-74
 uses-sdk
 INJECTED from D:\androidprojects\Dagger\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\androidprojects\Dagger\app\src\main\AndroidManifest.xml
 INJECTED from D:\androidprojects\Dagger\app\src\main\AndroidManifest.xml
-MERGED from [com.google.dagger:dagger-android-support:2.20] C:\Users\sugandh\.gradle\caches\transforms-2\files-2.1\79318ccb2f14a09c3c40fc83b7333b85\AndroidManifest.xml:20:5-44
-MERGED from [com.google.dagger:dagger-android-support:2.20] C:\Users\sugandh\.gradle\caches\transforms-2\files-2.1\79318ccb2f14a09c3c40fc83b7333b85\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\sugandh\.gradle\caches\transforms-2\files-2.1\3b143d82d3100ec452d559a31b730c96\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\sugandh\.gradle\caches\transforms-2\files-2.1\3b143d82d3100ec452d559a31b730c96\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\sugandh\.gradle\caches\transforms-2\files-2.1\98f436aea6c26addd6f874a5b4b55d2e\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\sugandh\.gradle\caches\transforms-2\files-2.1\98f436aea6c26addd6f874a5b4b55d2e\AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.dagger:dagger-android:2.20] C:\Users\sugandh\.gradle\caches\transforms-2\files-2.1\6f710a809fbb586ce066be9a4862d26b\AndroidManifest.xml:20:5-44
-MERGED from [com.google.dagger:dagger-android:2.20] C:\Users\sugandh\.gradle\caches\transforms-2\files-2.1\6f710a809fbb586ce066be9a4862d26b\AndroidManifest.xml:20:5-44
+MERGED from [com.google.dagger:dagger-android:2.21] C:\Users\sugandh\.gradle\caches\transforms-2\files-2.1\3be350b3322e029d49966e04b2f08eba\AndroidManifest.xml:20:5-44
+MERGED from [com.google.dagger:dagger-android:2.21] C:\Users\sugandh\.gradle\caches\transforms-2\files-2.1\3be350b3322e029d49966e04b2f08eba\AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\sugandh\.gradle\caches\transforms-2\files-2.1\98d98d40e4f30c323db3f22f67b01193\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\sugandh\.gradle\caches\transforms-2\files-2.1\98d98d40e4f30c323db3f22f67b01193\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\sugandh\.gradle\caches\transforms-2\files-2.1\dbbc50936a5a1ee12afe41a625f17f25\AndroidManifest.xml:20:5-22:41

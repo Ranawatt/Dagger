@@ -1,10 +1,12 @@
 package com.example.dagger.di.modules;
 
+import android.app.Application;
 import android.content.Context;
 
 import com.example.dagger.MyApplication;
 import com.example.dagger.data.local.DatabaseService;
 import com.example.dagger.data.remote.NetworkService;
+import com.example.dagger.di.qualifier.ApplicationContext;
 import com.example.dagger.di.qualifier.DatabaseInfo;
 import com.example.dagger.di.qualifier.NetworkInfo;
 
@@ -15,29 +17,34 @@ import dagger.Provides;
 
 @Module
 public class ApplicationModule {
-    private MyApplication application;
+    private MyApplication myApplication;
 
     public ApplicationModule(MyApplication application) {
-        this.application = application;
+        this.myApplication = application;
     }
 
+    @ApplicationContext
     @Provides
     Context provideContext(){
-        return application;
+        return myApplication;
     }
+
     @DatabaseInfo
     @Provides
     String provideDatabaseName(){
-        return "abc";
+        return "dummy_db";
     }
+
+    @DatabaseInfo
     @Provides
     Integer provideVersion(){
         return 1;
     }
+
     @NetworkInfo
     @Provides
     String provideApiKey(){
-        return "xyz";
+        return "SOME_API_KEY";
     }
 //    @Singleton
 //    @Provides

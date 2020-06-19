@@ -1,2 +1,3 @@
+include ':dagger-hilt'
 include ':app'
 rootProject.name='Dagger'

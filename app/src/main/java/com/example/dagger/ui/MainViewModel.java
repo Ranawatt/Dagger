@@ -2,9 +2,11 @@ package com.example.dagger.ui;
 
 import com.example.dagger.data.local.DatabaseService;
 import com.example.dagger.data.remote.NetworkService;
+import com.example.dagger.di.scope.ActivityScope;
 
 import javax.inject.Inject;
 
+@ActivityScope
 public class MainViewModel {
 
     private DatabaseService databaseService;

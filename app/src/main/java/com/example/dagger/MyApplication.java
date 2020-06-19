@@ -17,8 +17,6 @@ public class MyApplication extends Application {
     public NetworkService networkService;
     @Inject
     public DatabaseService databaseService;
-//    @Inject
-//    public NetworkService networkService2;
 
     public ApplicationComponent component;
 

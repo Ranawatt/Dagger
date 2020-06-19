@@ -4,6 +4,7 @@ import android.app.Application;
 import android.content.Context;
 
 import com.example.dagger.MyApplication;
+import com.example.dagger.di.qualifier.ApplicationContext;
 import com.example.dagger.di.qualifier.DatabaseInfo;
 
 import javax.inject.Inject;
@@ -17,7 +18,9 @@ public class DatabaseService {
     private  int versions;
 
     @Inject
-    public DatabaseService(Context context, @DatabaseInfo String databaseName, int versions) {
+    public DatabaseService(@ApplicationContext Context context,
+                           @DatabaseInfo String databaseName,
+                           @DatabaseInfo Integer versions) {
         this.context = context;
         this.databaseName = databaseName;
         this.versions = versions;

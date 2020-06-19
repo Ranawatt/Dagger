@@ -10,6 +10,7 @@
         android:targetSdkVersion="28" />
 
     <application
+        android:name="com.example.dagger.MyApplication"
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"

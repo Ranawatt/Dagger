@@ -748,6 +748,7 @@ id checkbox
 id checked
 id chronometer
 id collapseActionView
+id container_fragment
 id content
 id contentPanel
 id custom
@@ -851,6 +852,7 @@ id title_template
 id top
 id topPanel
 id tvData
+id tv_message
 id unchecked
 id uniform
 id up
@@ -900,6 +902,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
 layout custom_dialog
+layout fragment_home
 layout notification_action
 layout notification_action_tombstone
 layout notification_template_custom_big
@@ -940,6 +943,8 @@ string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string app_name
+string hello_msg_from_activity
+string hello_msg_from_fragment
 string search_menu_title
 string status_bar_notification_info_overflow
 style AlertDialog_AppCompat
