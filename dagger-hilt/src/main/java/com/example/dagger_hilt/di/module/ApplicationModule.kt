@@ -4,10 +4,10 @@ import com.example.dagger_hilt.BuildConfig
 import com.example.dagger_hilt.data.api.ApiHelper
 import com.example.dagger_hilt.data.api.ApiHelperImpl
 import com.example.dagger_hilt.data.api.ApiService
-import com.example.dagger_hilt.di.component.ApplicationComponent
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
+import dagger.hilt.android.components.ApplicationComponent
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
