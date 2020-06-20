@@ -3,6 +3,7 @@ package com.example.dagger_hilt.ui.main.view
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import android.widget.Toast
 import androidx.activity.viewModels
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
@@ -46,6 +47,15 @@ class MainActivity : AppCompatActivity() {
                     it.data?.let {
                         users -> renderList(users)
                     }
+                    recyclerView.visibility = View.VISIBLE
+                }
+                Status.LOADING -> {
+                    progressBar.visibility = View.VISIBLE
+                    recyclerView.visibility = View.GONE
+                }
+                Status.ERROR -> {
+                    progressBar.visibility =View.GONE
+                    Toast.makeText(this, it.message, Toast.LENGTH_SHORT).show()
                 }
             }
         })

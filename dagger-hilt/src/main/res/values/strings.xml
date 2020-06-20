@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">Dagger-hilt</string>
-    <string name="fetch_user">Fetch User</string>
+   
 </resources>
