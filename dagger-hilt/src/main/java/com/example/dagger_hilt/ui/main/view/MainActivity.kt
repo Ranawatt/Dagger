@@ -14,8 +14,10 @@ import com.example.dagger_hilt.data.model.User
 import com.example.dagger_hilt.ui.main.adapter.MainAdapter
 import com.example.dagger_hilt.ui.main.viewmodel.MainViewModel
 import com.example.dagger_hilt.utils.Status
+import com.facebook.shimmer.ShimmerFrameLayout
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.coroutines.delay
 
 @AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
@@ -42,19 +44,26 @@ class MainActivity : AppCompatActivity() {
     private fun setupObserver() {
         viewModel.users.observe(this, Observer {
             when(it.status){
+
                 Status.SUCCESS -> {
-                    progressBar.visibility = View.GONE
+                    shimmerFrameLayout.stopShimmerAnimation()
+                    shimmerFrameLayout.visibility = View.GONE
+//                    progressBar.visibility = View.GONE
                     it.data?.let {
                         users -> renderList(users)
                     }
                     recyclerView.visibility = View.VISIBLE
                 }
                 Status.LOADING -> {
-                    progressBar.visibility = View.VISIBLE
+                    shimmerFrameLayout.visibility = View.VISIBLE
+                    shimmerFrameLayout.maskShape = ShimmerFrameLayout.MaskShape.LINEAR
+                    shimmerFrameLayout.startShimmerAnimation()
+//                    progressBar.visibility = View.VISIBLE
                     recyclerView.visibility = View.GONE
                 }
                 Status.ERROR -> {
-                    progressBar.visibility =View.GONE
+                    shimmerFrameLayout.visibility = View.GONE
+//                    progressBar.visibility =View.GONE
                     Toast.makeText(this, it.message, Toast.LENGTH_SHORT).show()
                 }
             }
@@ -64,5 +73,16 @@ class MainActivity : AppCompatActivity() {
     private fun renderList(users: List<User>) {
         adapter.addData(users)
         adapter.notifyDataSetChanged()
+    }
+
+    override fun onPause() {
+        super.onPause()
+        shimmerFrameLayout.stopShimmerAnimation()
+    }
+
+    override fun onResume() {
+        super.onResume()
+        shimmerFrameLayout.tilt
+        shimmerFrameLayout.startShimmerAnimation()
     }
 }
