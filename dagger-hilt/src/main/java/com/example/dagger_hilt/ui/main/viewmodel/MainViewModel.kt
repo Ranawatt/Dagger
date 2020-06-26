@@ -9,9 +9,8 @@ import com.example.dagger_hilt.data.model.User
 import com.example.dagger_hilt.data.repository.MainRepository
 import com.example.dagger_hilt.utils.NetworkHelper
 import com.example.dagger_hilt.utils.Resource
-import com.example.dagger_hilt.utils.Status
 import kotlinx.coroutines.launch
-import javax.inject.Inject
+
 
 class MainViewModel @ViewModelInject constructor(
         private val repository: MainRepository,
